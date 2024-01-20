@@ -63,10 +63,3 @@ SELECT prod_name
 FROM Products 
 WHERE NOT vend_id = 'DLL01'                         --除了DLL01之外的東西都否定，也就是只顯示DLL01相關
 ORDER BY prod_name;                                 --在簡單的子句中，可用<>取代NOT
-
-
-
------Lesson 6-----
-
---Like 召喚包含關鍵字的所有值
---% 表示任何自符出現任
